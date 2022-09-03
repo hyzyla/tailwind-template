@@ -1,5 +1,5 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
@@ -11,12 +11,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>
+        <h1 className="text-3xl">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
